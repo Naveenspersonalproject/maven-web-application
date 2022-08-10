@@ -12,8 +12,8 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Mithun Technologies</name>
-		<url>http://mithuntechnologies.com/</url>
+		<name>Veens DevOps Learning</name>
+		<url>http://DevOpslearning.com.</url>
 	</organization>
 
 	<properties>
@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>https://sonarcloud.io/project/</sonar.host.url>
-		<sonar.login>de2b5480f686ee40ef527e965c45cb285dfbcde0</sonar.login>
+		<sonar.host.url>http://localhost:9000/</sonar.host.url>
+		<sonar.login>ae1c14758ae9936938b16594730e63b6b52b42dc</sonar.login>
 		<!-- 
 			<sonar.password>admin</sonar.password> 
 		-->
@@ -99,18 +99,18 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-release/</url>
+	      <name>Wallmart-Release Nexus Repository</name>
+	      <url>http://localhost:8081/repository/Wallmart-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-snapshot/</url>
+	      <name>Wallmart-Snapshot Nexus Repository </name>
+	      <url>http://localhost:8081/repository/Wallmart-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
-	
+
 	<build>
 		<finalName>maven-web-application</finalName>
 		
