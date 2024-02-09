@@ -12,7 +12,7 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Veens DevOps Learning</name>
+		<name>DevOps Learning</name>
 		<url>http://DevOpslearning.com.</url>
 	</organization>
 
@@ -21,9 +21,11 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
+		<!-- 
+		
 		<sonar.host.url>http://localhost:9000/</sonar.host.url>
 		<sonar.login>ae1c14758ae9936938b16594730e63b6b52b42dc</sonar.login>
-		<!-- 
+		
 			<sonar.password>admin</sonar.password> 
 		-->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
